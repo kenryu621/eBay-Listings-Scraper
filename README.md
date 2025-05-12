@@ -29,13 +29,37 @@ This application automates the process of searching for products on eBay's websi
 
 - Windows OS
 - Python 3.x (if running from source)
+- Python UV (for virtual environment management)
 - Chrome browser
 
 ### Running the Application
 
 #### From Source Code
 
-1. Run `main.py`
+1. Create a virtual environment using UV:
+
+   ```bash
+   uv venv .venv
+   ```
+
+2. Activate the virtual environment:
+   - On Windows:
+
+     ```bash
+     .venv\\Scripts\\activate
+     ```
+
+3. Install dependencies:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. Run the main script:
+
+   ```bash
+   python main.py
+   ```
 
 ### Setup Instructions
 
